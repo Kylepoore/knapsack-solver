@@ -1,0 +1,29 @@
+knapsack-solver
+===============
+
+These solvers take a file with the form:
+
+<number of items> <capacity>
+<item 1 value> <item 1 weight>
+.
+.
+.
+<item n value> <item n weight>
+
+example:
+
+4 11
+8 4
+10 5
+15 8
+4 3
+
+and display output in the following format:
+
+<total value of solution> <proven optimal (0 or 1)>
+<binary list of n items (1 = taken, 0 = left behind)>
+
+example:
+
+19 1
+0 0 1 1
